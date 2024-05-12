@@ -1,0 +1,18 @@
+/* fonts */
+.font-timeless {
+    font-family: "Timeless", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: always
+}
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: always
+        /* font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings: "slnt" -4; */
+}

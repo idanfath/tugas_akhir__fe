@@ -1,0 +1,24 @@
+/* import css, timeless, inter */
+@import "./custom/cursor.css";
+@import "./custom/anim.css";
+@import "./custom/utils.css";
+@import "./custom/fonts.css";
+@import url("https://fonts.cdnfonts.com/css/timeless");
+@import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
+
+/* variables */
+:root {
+    --prim: #faf7ed;
+    --sec: #faeded;
+    --wht: #ffffff;
+    --dark: #1d1d1d;
+    --grn: #1f1b04;
+    --grey: #333333;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+

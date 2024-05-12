@@ -1,0 +1,41 @@
+/* hover */
+.animated, .animated > * {
+    transition: all 0.4s ease-in-out;
+}
+
+.parent-clr:hover > .h-clr-prim, .h-clr-prim:hover {
+    color: var(--prim) !important; 
+}
+.parent-clr:hover > .h-clr-grey, .h-clr-grey:hover {
+    color: var(--grey) !important; 
+}
+
+.h-shdw {
+    transition: filter 0.4s ease-in-out !important;
+}
+.parent-shdw:hover > .h-shdw, .h-shdw:hover {
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.2))  !important; 
+}
+
+.h-opacity:hover {
+    opacity: 0.8 !important;
+}
+
+.h-italic:hover {
+    font-style: oblique 5deg !important;
+}
+
+.h-bg-grey:hover{
+    background-color: var(--grey) !important;
+}
+.h-bg-dark:hover{
+    background-color: var(--dark) !important;
+}
+.h-bg-prim:hover{
+    background-color: var(--prim) !important;
+}
+
+.parent-right:hover > .h-right, .h-right:hover{
+    transform: translateX(3px) !important;
+}
+

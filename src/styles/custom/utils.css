@@ -1,0 +1,43 @@
+/* utility */
+.bg-prim {
+    background-color: var(--prim);
+}
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+.bg-grn {
+    background-color: var(--grn) !important;
+}
+.bg-grey {
+    background-color: var(--grey) !important;
+}
+
+.c-prim {
+    color: var(--prim);
+}
+.c-grn {
+    color: var(--grn);
+}
+.c-dark {
+    color: var(--dark);
+}
+.c-grey {
+    color: var(--grey);
+}
+
+.fi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gap-1 {
+    gap: 10px;
+}
+
+.borders{
+    border: 1.5px solid var(--grey)
+}
+.borders-wht{
+    border: 1.5px solid var(--wht)
+}
